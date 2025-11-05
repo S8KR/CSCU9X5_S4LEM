@@ -1,3 +1,25 @@
 body { 
-    font-family: TimesNewRoman;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    overflow: auto;
+}
+
+.button-padding {
+    padding: 4%;
+}
+
+.btn-white-bg {
+    background-color: #ffffff;
+    color: #212529; 
+}
+
+.btn-white-bg:hover {
+    background-color: #6c757d;
+    color: #ffffff;
 }
