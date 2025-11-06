@@ -14,6 +14,10 @@ main {
     padding: 4%;
 }
 
+.bg-white {
+    background-color: #ffffff;
+}
+
 .btn-white-bg {
     background-color: #ffffff;
     color: #212529; 
