@@ -20,10 +20,35 @@ main {
 
 .btn-white-bg {
     background-color: #ffffff;
-    color: #212529; 
+    color: #212529;
 }
 
 .btn-white-bg:hover {
     background-color: #6c757d;
     color: #ffffff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: inherit;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-border {
+    --bs-accordion-border-color: #6c757d;
+}
+
+.cover-sizing {
+    width: 12%;
+    height: 12%;
+    object-fit: cover;
+    padding-right: 20px;
+}
+
+.force-square {
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
